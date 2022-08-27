@@ -23,10 +23,17 @@ body {
 
 header {
     display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 100px;
 }
 
 header ul {
     display: flex;
+}
+
+header ul li {
+    padding: 9px;
 }
 
 .container {
