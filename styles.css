@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Sintony', sans-serif;
+}
+
+body {
+    background-image: url(./BackGround.jpg);
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .name h1 {
+    font-size: 60px;
+}
+
+.container .name h5 {
+    font-size: 25px;
+}
+
+.about p {
+    font-weight: 300;
+    font-family: 'Sintony', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+}
+
+.form button {
+    width: 15%;
+}
